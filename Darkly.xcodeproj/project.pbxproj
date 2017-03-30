@@ -25,6 +25,32 @@
 		3AB1B71A1B89036A0006E970 /* LDRequestManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1B7191B89036A0006E970 /* LDRequestManagerTest.m */; };
 		3AC5D0DE1B8AA44A00417CBB /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */; };
 		3AD8ACB61B86B5E800922AA6 /* LDClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */; };
+		83A58CAC1E8CEE6500821902 /* LDEventModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DEE1C4D9D660059886B /* LDEventModel.m */; };
+		83A58CAD1E8CEE6500821902 /* LDClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */; };
+		83A58CAE1E8CEE6500821902 /* DarklyConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A7961B705F2C00984E23 /* DarklyConstants.m */; };
+		83A58CAF1E8CEE6500821902 /* LDConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A78C1B7008B700984E23 /* LDConfig.m */; };
+		83A58CB01E8CEE6500821902 /* LDClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A70A7871B6FCFAC00984E23 /* LDClient.m */; };
+		83A58CB11E8CEE6500821902 /* LDUserBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE5294E1B8418B200761F3D /* LDUserBuilder.m */; };
+		83A58CB21E8CEE6500821902 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */; };
+		83A58CB31E8CEE6500821902 /* LDUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DF11C4DA0330059886B /* LDUserModel.m */; };
+		83A58CB41E8CEE6500821902 /* LDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F23D01B82D19900D0EF2F /* LDRequestManager.m */; };
+		83A58CB51E8CEE6500821902 /* LDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F93BF1B6F10DB0093E419 /* LDUtil.m */; };
+		83A58CB61E8CEE6500821902 /* LDDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC467AB61B78323F0035C07E /* LDDataManager.m */; };
+		83A58CB71E8CEE6500821902 /* LDPollingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23DCFA9D1B95105A00F15531 /* LDPollingManager.m */; };
+		83A58CB81E8CEE6500821902 /* LDFlagConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C4DE81C4D93B70059886B /* LDFlagConfigModel.m */; };
+		83A58CBA1E8CEE6500821902 /* libPods-Darkly.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4123AB55EABA4FCD91AD877 /* libPods-Darkly.a */; };
+		83A58CC11E8CEEE300821902 /* LDDataManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC467AB51B78323F0035C07E /* LDDataManager.h */; };
+		83A58CC21E8CEEE400821902 /* LDPollingManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23DCFA9C1B95105A00F15531 /* LDPollingManager.h */; };
+		83A58CC31E8CEEE400821902 /* LDRequestManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A9F23CF1B82D19900D0EF2F /* LDRequestManager.h */; };
+		83A58CC41E8CEEE400821902 /* LDClientManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AD8ACB41B86B5E700922AA6 /* LDClientManager.h */; };
+		83A58CC51E8CEEE400821902 /* LDUtil.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A5F93C11B6F10F50093E419 /* LDUtil.h */; };
+		83A58CC61E8CEEE400821902 /* LDClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A70A7861B6FCF9300984E23 /* LDClient.h */; };
+		83A58CC71E8CEEE400821902 /* LDConfig.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A70A78B1B7008A900984E23 /* LDConfig.h */; };
+		83A58CC81E8CEEE400821902 /* LDUserBuilder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADE5294D1B8418B200761F3D /* LDUserBuilder.h */; };
+		83A58CC91E8CEEE400821902 /* LDFlagConfigModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A0C4DE71C4D93B70059886B /* LDFlagConfigModel.h */; };
+		83A58CCA1E8CEEE400821902 /* LDEventModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A0C4DED1C4D9D660059886B /* LDEventModel.h */; };
+		83A58CCB1E8CEEE400821902 /* LDUserModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3A0C4DF01C4DA0330059886B /* LDUserModel.h */; };
+		83A58CCC1E8CEEE400821902 /* NSDictionary+JSON.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3AC5D0DC1B8AA44A00417CBB /* NSDictionary+JSON.h */; };
 		9C26D624D5C421C86E51C5A8 /* libPods-DarklyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A44BAF6AB27A088EB7A34F7 /* libPods-DarklyTests.a */; };
 		9D4CD7721BB923C700CBD687 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA68A121B7066480052BE63 /* CoreData.framework */; };
 		9D4CD7731BB925DB00CBD687 /* DarklyLibraryModels.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */; };
@@ -61,6 +87,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		83A58CBB1E8CEE6500821902 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				83A58CC11E8CEEE300821902 /* LDDataManager.h in CopyFiles */,
+				83A58CC21E8CEEE400821902 /* LDPollingManager.h in CopyFiles */,
+				83A58CC31E8CEEE400821902 /* LDRequestManager.h in CopyFiles */,
+				83A58CC41E8CEEE400821902 /* LDClientManager.h in CopyFiles */,
+				83A58CC51E8CEEE400821902 /* LDUtil.h in CopyFiles */,
+				83A58CC61E8CEEE400821902 /* LDClient.h in CopyFiles */,
+				83A58CC71E8CEEE400821902 /* LDConfig.h in CopyFiles */,
+				83A58CC81E8CEEE400821902 /* LDUserBuilder.h in CopyFiles */,
+				83A58CC91E8CEEE400821902 /* LDFlagConfigModel.h in CopyFiles */,
+				83A58CCA1E8CEEE400821902 /* LDEventModel.h in CopyFiles */,
+				83A58CCB1E8CEEE400821902 /* LDUserModel.h in CopyFiles */,
+				83A58CCC1E8CEEE400821902 /* NSDictionary+JSON.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CC36AA921B6D5FED008200F1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,6 +166,7 @@
 		3AC5D0DD1B8AA44A00417CBB /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
 		3AD8ACB41B86B5E700922AA6 /* LDClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDClientManager.h; sourceTree = "<group>"; };
 		3AD8ACB51B86B5E700922AA6 /* LDClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDClientManager.m; sourceTree = "<group>"; };
+		83A58CC01E8CEE6500821902 /* libPlynkDarkly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlynkDarkly.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarklyLibraryModels.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4CD76D1BB9236B00CBD687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEEE9431B976F8B00238073 /* libMantle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMantle.a; path = "Pods/../build/Debug-iphoneos/libMantle.a"; sourceTree = "<group>"; };
@@ -160,6 +208,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A58CB91E8CEE6500821902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A58CBA1E8CEE6500821902 /* libPods-Darkly.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +336,7 @@
 				23AA1AB61B721E3E00FE6A00 /* QuickTest.app */,
 				23AA1AD11B721E3F00FE6A00 /* QuickTestTests.xctest */,
 				9D4CD76B1BB9236B00CBD687 /* DarklyLibraryModels.bundle */,
+				83A58CC01E8CEE6500821902 /* libPlynkDarkly.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -418,6 +475,24 @@
 			productReference = 23AA1AD11B721E3F00FE6A00 /* QuickTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		83A58CA91E8CEE6500821902 /* PlynkDarkly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A58CBD1E8CEE6500821902 /* Build configuration list for PBXNativeTarget "PlynkDarkly" */;
+			buildPhases = (
+				83A58CAB1E8CEE6500821902 /* Sources */,
+				83A58CB91E8CEE6500821902 /* Frameworks */,
+				83A58CBB1E8CEE6500821902 /* CopyFiles */,
+				83A58CBC1E8CEE6500821902 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlynkDarkly;
+			productName = Darkly;
+			productReference = 83A58CC01E8CEE6500821902 /* libPlynkDarkly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		9D4CD76A1BB9236B00CBD687 /* DarklyLibraryModels */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4CD7701BB9236C00CBD687 /* Build configuration list for PBXNativeTarget "DarklyLibraryModels" */;
@@ -525,6 +600,7 @@
 				23AA1AB51B721E3E00FE6A00 /* QuickTest */,
 				23AA1AD01B721E3F00FE6A00 /* QuickTestTests */,
 				9D4CD76A1BB9236B00CBD687 /* DarklyLibraryModels */,
+				83A58CA91E8CEE6500821902 /* PlynkDarkly */,
 			);
 		};
 /* End PBXProject section */
@@ -608,6 +684,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DarklyTests/Pods-DarklyTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		83A58CBC1E8CEE6500821902 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Darkly/Pods-Darkly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8D2649BFFDE572AD586F995D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,6 +743,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A58CAB1E8CEE6500821902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A58CAC1E8CEE6500821902 /* LDEventModel.m in Sources */,
+				83A58CAD1E8CEE6500821902 /* LDClientManager.m in Sources */,
+				83A58CAE1E8CEE6500821902 /* DarklyConstants.m in Sources */,
+				83A58CAF1E8CEE6500821902 /* LDConfig.m in Sources */,
+				83A58CB01E8CEE6500821902 /* LDClient.m in Sources */,
+				83A58CB11E8CEE6500821902 /* LDUserBuilder.m in Sources */,
+				83A58CB21E8CEE6500821902 /* NSDictionary+JSON.m in Sources */,
+				83A58CB31E8CEE6500821902 /* LDUserModel.m in Sources */,
+				83A58CB41E8CEE6500821902 /* LDRequestManager.m in Sources */,
+				83A58CB51E8CEE6500821902 /* LDUtil.m in Sources */,
+				83A58CB61E8CEE6500821902 /* LDDataManager.m in Sources */,
+				83A58CB71E8CEE6500821902 /* LDPollingManager.m in Sources */,
+				83A58CB81E8CEE6500821902 /* LDFlagConfigModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -797,6 +908,44 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickTest.app/QuickTest";
+			};
+			name = Release;
+		};
+		83A58CBE1E8CEE6500821902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF3D8B3D5EBA564267F784E /* Pods-Darkly.debug.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darkly/Darkly-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		83A58CBF1E8CEE6500821902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F19BA3C600D75D385DA50A51 /* Pods-Darkly.release.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darkly/Darkly-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -1012,6 +1161,15 @@
 			buildConfigurations = (
 				23AA1ADB1B721E3F00FE6A00 /* Debug */,
 				23AA1ADC1B721E3F00FE6A00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A58CBD1E8CEE6500821902 /* Build configuration list for PBXNativeTarget "PlynkDarkly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A58CBE1E8CEE6500821902 /* Debug */,
+				83A58CBF1E8CEE6500821902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
